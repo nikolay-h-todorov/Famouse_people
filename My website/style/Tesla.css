@@ -1,0 +1,75 @@
+  body {
+    user-select: none;
+    background-color: rgb(0, 0, 0);
+  }
+
+  .navbar {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: cyan;
+    border-radius: 100px;
+    padding: 10px;
+  }
+    
+  .navigationbar {
+    position: relative;
+    font-size: 25px;
+    text-decoration: none;
+    margin: 20px;
+    border-radius: 15px;
+    text-align: center;
+    color: black;
+    overflow: hidden;
+  }
+    
+  .nav-left {
+    padding-left: 200px;
+  }
+
+  .nav-mid {
+    padding: auto;
+  }
+
+  .nav-right {
+    padding-right: 200px;
+  }
+
+  .nav-left:hover, .nav-mid:hover, .nav-right:hover {
+    transition: 1s ease-in-out;
+    color: rgb(255, 132, 0);
+    text-decoration: underline;
+  }
+
+  .title {
+    position: absolute;
+    padding-left: 100px;
+    padding-top: 120px;
+  }
+
+  h1 {
+    font-size: 100px;
+    color: white;
+  }
+
+  .images-six {
+    padding-top: 80px;
+    padding-left: 700px;
+    display: flex;
+    height: 20rem;
+    gap: 1rem;
+  }
+
+  .images-six > div {
+    border-radius: 1rem;
+    flex: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all 0.8s cubic-bezier(0.25, 0.2, 0.45, 1.4);
+  }
+
+  .images-six > div:hover {
+    flex: 5;
+  }
