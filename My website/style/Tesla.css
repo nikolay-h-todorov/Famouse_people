@@ -1,6 +1,20 @@
   body {
     user-select: none;
     background-color: rgb(97, 57, 170);
+    overflow-x: hidden;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: rgb(97, 57, 170);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-image: linear-gradient( rgb(97, 57, 170), rgb(34, 229, 255), rgb(255, 102, 255), rgb(97, 57, 170));
+    border-radius: 100px;
   }
 
   .navbar {
@@ -91,4 +105,21 @@
   }
   .content > p > a:hover { 
     background-position: 0 100%;
+  }
+
+  .About-Tesla {  
+    padding-top: 380px;
+    padding-left: 63%;
+    width: 380px;
+  }
+
+  .About-Tesla > p {
+    font-size: 27px;
+    color: white;
+  }
+
+  #About-Tesla {
+    padding-left: 50px;
+    font-size: 45px;
+    color: rgb(0, 71, 147)
   }
