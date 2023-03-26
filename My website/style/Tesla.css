@@ -1,7 +1,15 @@
   body {
     user-select: none;
-    background-color: rgb(97, 57, 170);
     overflow-x: hidden;
+  }
+
+  .page-container {
+    background-color: rgb(97, 57, 170);
+    background-image: linear-gradient(to bottom right, black 50%, transparent 50%),
+                      linear-gradient(to bottom, black 500px, transparent 500px);
+    background-position: 0 0, 0 0;
+    background-size: 1400px 100%, auto;
+    background-repeat: no-repeat;
   }
   
   ::-webkit-scrollbar {
@@ -107,7 +115,7 @@
     background-position: 0 100%;
   }
 
-  .About-Tesla {  
+  .About-Tesla {    
     padding-top: 380px;
     padding-left: 63%;
     width: 380px;
@@ -121,5 +129,29 @@
   #About-Tesla {
     padding-left: 50px;
     font-size: 45px;
-    color: rgb(0, 71, 147)
+    color: rgb(255, 255, 255)
+  }
+
+  .TeslaBB {
+    padding-left: 250px;
+    padding-top: 370px;
+    width: 310px;
+    position: absolute;
+  }
+
+  .Early-Years {
+    padding-top: 450px;
+    padding-left: 19%;
+    width: 470px;
+  }
+
+  .Early-Years > p {
+    font-size: 27px;
+    color: white;
+  }
+
+  #Early-Years {
+    padding-left: 110px;
+    font-size: 47px;
+    color: white;
   }
