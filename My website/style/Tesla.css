@@ -5,11 +5,12 @@
 
   .page-container {
     background-color: rgb(97, 57, 170);
-    background-image: linear-gradient(to bottom right, black 50%, transparent 50%),
-                      linear-gradient(to bottom, black 500px, transparent 500px);
+    background-image:
+      linear-gradient(to bottom right, black 50%, transparent 50%),
+      linear-gradient(to bottom, black 550px, transparent 100px);
     background-position: 0 0, 0 0;
-    background-size: 1400px 100%, auto;
-    background-repeat: no-repeat;
+    background-size: 1100px 3000px, auto; /* black background fix */
+    background-repeat: no-repeat; 
   }
   
   ::-webkit-scrollbar {
@@ -26,7 +27,7 @@
   }
 
   .navbar {
-    height: 50px;
+    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,7 +38,7 @@
     
   .navigationbar {
     position: relative;
-    font-size: 25px;
+    font-size: 33px;
     text-decoration: none;
     margin: 20px;
     border-radius: 15px;
@@ -59,9 +60,8 @@
   }
 
   .nav-left:hover, .nav-mid:hover, .nav-right:hover {
-    transition: 1s ease-in-out;
+    transition: 0.7s ease-in-out;
     color: rgb(255, 132, 0);
-    text-decoration: underline;
   }
 
   .title {
@@ -116,8 +116,8 @@
   }
 
   .About-Tesla {    
-    padding-top: 380px;
-    padding-left: 63%;
+    padding-top: 300px;
+    padding-left: 60%;
     width: 380px;
   }
 
@@ -134,14 +134,14 @@
 
   .TeslaBB {
     padding-left: 250px;
-    padding-top: 370px;
-    width: 310px;
+    padding-top: 300px;
+    width: 300px;
     position: absolute;
   }
 
   .Early-Years {
-    padding-top: 450px;
-    padding-left: 19%;
+    padding-top: 350px;
+    padding-left: 60%;
     width: 470px;
   }
 
@@ -154,4 +154,68 @@
     padding-left: 110px;
     font-size: 47px;
     color: white;
+  }
+
+  .Inventions {
+    padding-top: 300px;
+    padding-left: 10%;
+    width: 470px;
+  }
+
+  .Inventions > p {
+    font-size: 27px;
+    color: white;
+    width: 565px;
+  }
+
+  .Inventions > pre {
+    font-size: 20px;
+    color: white;
+  }
+
+  #Inventions {
+    padding-left: 110px;
+    font-size: 47px;
+    color: white;
+  }
+
+  .Remote-control {
+    position: absolute;
+    padding-left: 70%;
+    padding-top: 450px;
+    height: 400px;
+  }
+
+  .Oscilator {
+    position: absolute;
+    padding-top: 900px;
+    padding-left: 70%;
+    height: 300px;
+    width: 230px;
+  }
+
+  .Xray {
+    padding-top: 1250px;
+    position: absolute;
+    height: 290px;
+    padding-left: 67%;
+  }
+
+  .El-car {
+    position: absolute;
+    height: 300px;
+    padding-left: 65%;
+    padding-top: 1600px;
+  }
+
+  /* add hover on 4 img with opacity, etc */
+
+  .circle1 {
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 41%;
+    width: 3500px;
+    height: 3000px;
+    background-color: black;
+    border-radius: 100%;
   }
